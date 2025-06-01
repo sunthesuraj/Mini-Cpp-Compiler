@@ -77,35 +77,35 @@ This will produce an executable named mini-compiler.
 ##Example
 
 Input:
-let x = 4
-let y = 2
-let z = x * y + 6
-print z
+-let x = 4
+-let y = 2
+-let z = x * y + 6
+-print z
 
 
 Output:
-Program started
-Argument received: examples/test.ml
-Source length: 49
-Starting lexer
-Tokens count: 19
-AST nodes count: 4
-[CodeGen] Generating bytecode from AST with 4 nodes
-[VM] run() started
-[VM] Executing instruction 0: opcode=0, operand='4'
-[VM] Executing instruction 1: opcode=2, operand='x'
-[VM] Executing instruction 2: opcode=0, operand='2'
-[VM] Executing instruction 3: opcode=2, operand='y'
-[VM] Executing instruction 4: opcode=1, operand='x'
-[VM] Executing instruction 5: opcode=1, operand='y'
-[VM] Executing instruction 6: opcode=5, operand=''
-[VM] Executing instruction 7: opcode=0, operand='6'
-[VM] Executing instruction 8: opcode=3, operand=''
-[VM] Executing instruction 9: opcode=2, operand='z'
-[VM] Executing instruction 10: opcode=1, operand='z'
-[VM] Executing instruction 11: opcode=7, operand=''
-[VM] Print: 14
-[VM] run() finished
+-Program started
+-Argument received: examples/test.ml
+-Source length: 49
+-Starting lexer
+-Tokens count: 19
+-AST nodes count: 4
+-[CodeGen] Generating bytecode from AST with 4 nodes
+-[VM] run() started
+-[VM] Executing instruction 0: opcode=0, operand='4'
+-[VM] Executing instruction 1: opcode=2, operand='x'
+-[VM] Executing instruction 2: opcode=0, operand='2'
+-[VM] Executing instruction 3: opcode=2, operand='y'
+-[VM] Executing instruction 4: opcode=1, operand='x'
+-[VM] Executing instruction 5: opcode=1, operand='y'
+-[VM] Executing instruction 6: opcode=5, operand=''
+-[VM] Executing instruction 7: opcode=0, operand='6'
+-[VM] Executing instruction 8: opcode=3, operand=''
+-[VM] Executing instruction 9: opcode=2, operand='z'
+-[VM] Executing instruction 10: opcode=1, operand='z'
+-[VM] Executing instruction 11: opcode=7, operand=''
+-[VM] Print: 14
+-[VM] run() finished
 
 ---
 
