@@ -71,8 +71,9 @@ g++ main.cpp lexer.cpp parser.cpp codegen.cpp vm.cpp -o mini_compiler
 This will produce an executable named mini-compiler.
 
 ./mini_compiler examples/test.ml
----
 
+
+---
 ##Example
 
 Input:
