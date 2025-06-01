@@ -110,15 +110,11 @@ AST nodes count: 4
 ---
 
 ##Future Work
-Implement support for functions and control flow (if/else, loops)
-
-Add more complex data types and operators
-
-Improve error messages with line numbers and detailed diagnostics
-
-Optimize the generated code or integrate with LLVM backend
-
-Add a REPL for interactive testing
+- Implement support for functions and control flow (if/else, loops)
+- Add more complex data types and operators
+- Improve error messages with line numbers and detailed diagnostics
+- Optimize the generated code or integrate with LLVM backend
+- Add a REPL for interactive testing
 
 
 
