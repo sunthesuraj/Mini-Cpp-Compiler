@@ -67,11 +67,10 @@ Make sure you have a C++ compiler supporting C++11 or later (e.g., `g++`, `clang
 To build the project using `g++` (assuming all `.cpp` files are in the root directory):
 
 ```bash
-g++ -std=c++11 main.cpp lexer.cpp parser.cpp codegen.cpp -o mini-compiler
-
+g++ main.cpp lexer.cpp parser.cpp codegen.cpp vm.cpp -o mini_compiler
 This will produce an executable named mini-compiler.
 
-./mini-compiler examples/test.ml
+./mini_compiler examples/test.ml
 
 
 let x = 5;
