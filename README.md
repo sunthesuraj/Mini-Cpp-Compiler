@@ -66,7 +66,7 @@ Make sure you have a C++ compiler supporting C++11 or later (e.g., `g++`, `clang
 
 To build the project using `g++` (assuming all `.cpp` files are in the root directory):
 
-```bash
+
 g++ main.cpp lexer.cpp parser.cpp codegen.cpp vm.cpp -o mini_compiler
 This will produce an executable named mini-compiler.
 
@@ -102,6 +102,21 @@ AST nodes count: 4
 [VM] Executing instruction 11: opcode=7, operand=''
 [VM] Print: 14
 [VM] run() finished
+
+
+##Future Work
+Implement support for functions and control flow (if/else, loops)
+
+Add more complex data types and operators
+
+Improve error messages with line numbers and detailed diagnostics
+
+Optimize the generated code or integrate with LLVM backend
+
+Add a REPL for interactive testing
+
+
+
 
 
 Created by:
